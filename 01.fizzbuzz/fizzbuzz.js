@@ -5,7 +5,7 @@ for (let number = 0; number <= 20; number++) {
         console.log("Fizz");
     } else if (number % 5 === 0) {
         console.log("Buzz");
-    } else
+    } else {
         console.log(number);
+    }
 }
-
